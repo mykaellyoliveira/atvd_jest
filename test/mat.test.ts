@@ -3,7 +3,7 @@ import { Operations } from '../src/TDD/operations'
 import { ErrorMessage } from '../src/TDD/errorMessages'
 
 let operations = new Operations
-
+//teste
 describe('Somatórias', () =>{
     test('Deve receber dois números como parametros e retornar a somatória', () =>{
         expect(operations.sum(1,2)).toBe(3)
